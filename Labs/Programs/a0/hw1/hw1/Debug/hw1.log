@@ -1,0 +1,45 @@
+﻿Build started 9/8/2014 10:38:11 PM.
+     1>Project "C:\2014 Fall\COMP215 - Algorithms\Programs\a0\hw1\hw1\hw1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\hw1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(44): error C2143: syntax error : missing ';' before '*'
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(45): error C2061: syntax error : identifier 'treeNode'
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(46): error C2061: syntax error : identifier 'treeNode'
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(47): error C2061: syntax error : identifier 'treeNode'
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(48): error C2061: syntax error : identifier 'treeNode'
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(56): error C2039: 'root' : is not a member of 'binarySearchTree'
+                 c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(33) : see declaration of 'binarySearchTree'
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(63): error C2039: 'root' : is not a member of 'binarySearchTree'
+                 c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(33) : see declaration of 'binarySearchTree'
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(63): error C2660: 'binarySearchTree::destroy_tree' : function does not take 1 arguments
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(68): error C2065: 'treeNode' : undeclared identifier
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(68): error C2065: 'leaf' : undeclared identifier
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(69): error C2448: 'binarySearchTree::destroy_tree' : function-style initializer appears to be a function definition
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(82): error C2039: 'root' : is not a member of 'binarySearchTree'
+                 c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(33) : see declaration of 'binarySearchTree'
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(84): error C2065: 'root' : undeclared identifier
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(84): error C2061: syntax error : identifier 'treeNode'
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(92): error C2065: 'root' : undeclared identifier
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(92): error C2660: 'binarySearchTree::insert_help' : function does not take 2 arguments
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(112): error C2511: 'void binarySearchTree::insert_help(int,treeNode *)' : overloaded member function not found in 'binarySearchTree'
+                 c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(33) : see declaration of 'binarySearchTree'
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(115): error C2660: 'binarySearchTree::insert_help' : function does not take 2 arguments
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(127): error C2660: 'binarySearchTree::insert_help' : function does not take 2 arguments
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(139): error C2065: 'root' : undeclared identifier
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(139): error C2660: 'binarySearchTree::search_help' : function does not take 2 arguments
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(145): error C2511: 'bool binarySearchTree::search_help(int,treeNode *)' : overloaded member function not found in 'binarySearchTree'
+                 c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(33) : see declaration of 'binarySearchTree'
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(151): error C2660: 'binarySearchTree::search_help' : function does not take 2 arguments
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(153): error C2660: 'binarySearchTree::search_help' : function does not take 2 arguments
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(160): error C2065: 'root' : undeclared identifier
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(166): error C2511: 'void binarySearchTree::inOrderTraversal_help(treeNode *)' : overloaded member function not found in 'binarySearchTree'
+                 c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(33) : see declaration of 'binarySearchTree'
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(171): error C2660: 'binarySearchTree::inOrderTraversal_help' : function does not take 1 arguments
+     1>c:\2014 fall\comp215 - algorithms\programs\a0\hw1\hw1\main.cpp(173): error C2660: 'binarySearchTree::inOrderTraversal_help' : function does not take 1 arguments
+     1>Done Building Project "C:\2014 Fall\COMP215 - Algorithms\Programs\a0\hw1\hw1\hw1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.03
